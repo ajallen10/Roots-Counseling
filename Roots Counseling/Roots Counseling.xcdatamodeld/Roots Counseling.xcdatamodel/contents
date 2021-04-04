@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H15" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Crisis" representedClassName="Crisis" syncable="YES" codeGenerationType="class">
+        <attribute name="accepts" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="breathe" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="coach" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="explan" optional="YES" attributeType="String"/>
+        <attribute name="facts" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="improve" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="opposite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="please" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pros" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="skill" optional="YES" attributeType="String"/>
+        <attribute name="soothe" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="stop" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tipp" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Day1" representedClassName="Day1" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alcoholUrge" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="anger" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="anxious" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="awake" optional="YES" attributeType="String"/>
+        <attribute name="bedtime" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="drugsAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="drugsUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="happy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="misery" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="missClass" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="shame" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill1" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill2" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill3" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill4" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill5" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill6" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill7" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill8" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill9" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill10" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill11" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill12" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill13" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill14" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill15" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill16" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill17" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill18" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill19" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill20" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill21" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill22" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill23" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill24" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill25" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill26" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill27" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill28" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill29" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill30" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Day2" representedClassName="Day2" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alcoholUrge" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="anger" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="anxious" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="awake" optional="YES" attributeType="String"/>
+        <attribute name="bedtime" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="drugsAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="drugsUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="happy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="misery" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="missClass" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="shame" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill1" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill2" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill3" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill4" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill5" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill6" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill7" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill8" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill9" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill10" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill11" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill12" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill13" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill14" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill15" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill16" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill17" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill18" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill19" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill20" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill21" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill22" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill23" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill24" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill25" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill26" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill27" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill28" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill29" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill30" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Day3" representedClassName="Day3" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alcoholUrge" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="anger" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="anxious" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="awake" optional="YES" attributeType="String"/>
+        <attribute name="bedtime" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="drugsAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="drugsUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="happy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="misery" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="missClass" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="shame" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill1" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill2" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill3" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill4" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill5" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill6" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill7" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill8" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill9" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill10" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill11" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill12" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill13" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill14" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill15" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill16" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill17" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill18" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill19" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill20" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill21" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill22" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill23" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill24" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill25" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill26" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill27" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill28" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill29" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill30" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Day4" representedClassName="Day4" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alcoholUrge" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="anger" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="anxious" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="awake" optional="YES" attributeType="String"/>
+        <attribute name="bedtime" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="drugsAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="drugsUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="happy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="misery" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="missClass" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="shame" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill1" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill2" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill3" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill4" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill5" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill6" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill7" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill8" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill9" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill10" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill11" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill12" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill13" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill14" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill15" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill16" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill17" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill18" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill19" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill20" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill21" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill22" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill23" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill24" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill25" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill26" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill27" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill28" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill29" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill30" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Day5" representedClassName="Day5" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alcoholUrge" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="anger" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="anxious" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="awake" optional="YES" attributeType="String"/>
+        <attribute name="bedtime" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="drugsAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="drugsUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="happy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="misery" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="missClass" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="shame" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill1" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill2" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill3" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill4" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill5" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill6" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill7" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill8" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill9" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill10" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill11" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill12" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill13" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill14" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill15" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill16" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill17" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill18" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill19" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill20" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill21" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill22" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill23" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill24" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill25" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill26" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill27" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill28" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill29" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill30" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Day6" representedClassName="Day6" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alcoholUrge" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="anger" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="anxious" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="awake" optional="YES" attributeType="String"/>
+        <attribute name="bedtime" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="drugsAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="drugsUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="happy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="misery" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="missClass" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="shame" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill1" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill2" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill3" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill4" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill5" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill6" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill7" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill8" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill9" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill10" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill11" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill12" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill13" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill14" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill15" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill16" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill17" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill18" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill19" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill20" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill21" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill22" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill23" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill24" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill25" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill26" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill27" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill28" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill29" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill30" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Day7" representedClassName="Day7" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alcoholUrge" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="anger" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="anxious" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="awake" optional="YES" attributeType="String"/>
+        <attribute name="bedtime" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="drugsAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="drugsUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="happy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="misery" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="missClass" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="shame" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill1" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill2" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill3" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill4" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill5" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill6" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill7" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill8" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill9" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill10" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill11" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill12" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill13" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill14" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill15" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill16" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill17" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill18" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill19" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill20" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill21" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill22" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill23" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill24" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill25" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill26" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill27" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill28" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill29" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill30" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Done" representedClassName="Done" syncable="YES" codeGenerationType="class">
+        <attribute name="friDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="monDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="satDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sunDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="thuDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tueDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="wedDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="IsRoots" representedClassName="IsRoots" syncable="YES" codeGenerationType="class">
+        <attribute name="roots" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="View" representedClassName="View" syncable="YES" codeGenerationType="class">
+        <attribute name="emotion" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="val" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Crisis" positionX="36" positionY="135" width="128" height="238"/>
+        <element name="Day1" positionX="-9" positionY="36" width="128" height="58"/>
+        <element name="Day2" positionX="-9" positionY="45" width="128" height="58"/>
+        <element name="Day3" positionX="0" positionY="54" width="128" height="58"/>
+        <element name="Day4" positionX="18" positionY="72" width="128" height="58"/>
+        <element name="Day5" positionX="36" positionY="90" width="128" height="58"/>
+        <element name="Day6" positionX="54" positionY="108" width="128" height="58"/>
+        <element name="Day7" positionX="72" positionY="126" width="128" height="58"/>
+        <element name="Done" positionX="45" positionY="135" width="128" height="148"/>
+        <element name="IsRoots" positionX="36" positionY="180" width="128" height="58"/>
+        <element name="View" positionX="36" positionY="171" width="128" height="73"/>
+    </elements>
+</model>

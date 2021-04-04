@@ -1,0 +1,6 @@
+framework module Pods_Roots_Counseling_Roots_CounselingUITests {
+  umbrella header "Pods-Roots Counseling-Roots CounselingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

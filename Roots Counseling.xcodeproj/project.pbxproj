@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330644EC53EAF1F10C70924C /* Pods_Roots_Counseling_Roots_CounselingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277026620010505AE1A8ECB0 /* Pods_Roots_Counseling_Roots_CounselingUITests.framework */; };
+		5F08A8C425D4F9F5009B3883 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08A8C325D4F9F4009B3883 /* EditViewController.swift */; };
+		5F08A8C925D4FA11009B3883 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08A8C825D4FA11009B3883 /* JournalViewController.swift */; };
+		5F08A8CE25D4FA2B009B3883 /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08A8CD25D4FA2B009B3883 /* JournalTableViewController.swift */; };
+		5F08A8D625D7796F009B3883 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08A8D525D7796F009B3883 /* UpdateViewController.swift */; };
+		5F2A1A8024E89A8600924C47 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A1A7E24E89A8500924C47 /* Admin.storyboard */; };
+		5F2A787824DB86DE00360C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A787724DB86DE00360C90 /* Assets.xcassets */; };
+		5F37991125FB210400364017 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F37991025FB210400364017 /* PhoneViewController.swift */; };
+		5F424D0D25460A5F0003108E /* EmotionalModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F424D0C25460A5F0003108E /* EmotionalModelViewController.swift */; };
+		5F424D1225460CAC0003108E /* EMStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F424D1125460CAC0003108E /* EMStepsViewController.swift */; };
+		5F4720C224E892CB00CFE3FA /* SelectReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4720C124E892CB00CFE3FA /* SelectReportViewController.swift */; };
+		5F48D6C725105BD80031F1AD /* WiseMindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48D6C625105BD80031F1AD /* WiseMindViewController.swift */; };
+		5F502C31251057F20052BE61 /* WiseMindDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F502C30251057F10052BE61 /* WiseMindDraw.swift */; };
+		5F50809F24F483170022660C /* SootheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F50809E24F483170022660C /* SootheViewController.swift */; };
+		5F5080A124F483510022660C /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5080A024F483510022660C /* BreatheViewController.swift */; };
+		5F5080A524F99A7E0022660C /* OppositeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5080A424F99A7E0022660C /* OppositeViewController.swift */; };
+		5F5582892551160D0002DDAF /* AcceptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5582882551160D0002DDAF /* AcceptsViewController.swift */; };
+		5F558291255116230002DDAF /* FastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F55828D255116220002DDAF /* FastViewController.swift */; };
+		5F558292255116230002DDAF /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F55828E255116230002DDAF /* FactsViewController.swift */; };
+		5F558293255116230002DDAF /* GiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F55828F255116230002DDAF /* GiveViewController.swift */; };
+		5F558294255116230002DDAF /* DearManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F558290255116230002DDAF /* DearManViewController.swift */; };
+		5F55829B2551162D0002DDAF /* ProsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5582982551162C0002DDAF /* ProsViewController.swift */; };
+		5F55829C2551162D0002DDAF /* PleaseSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5582992551162D0002DDAF /* PleaseSkillViewController.swift */; };
+		5F55829D2551162D0002DDAF /* ImproveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F55829A2551162D0002DDAF /* ImproveViewController.swift */; };
+		5F5582A2255116410002DDAF /* TippViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5582A1255116410002DDAF /* TippViewController.swift */; };
+		5F5582A72554E4B80002DDAF /* StopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5582A62554E4B80002DDAF /* StopViewController.swift */; };
+		5F5582AC2554E4CF0002DDAF /* RadicalAcceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5582AB2554E4CF0002DDAF /* RadicalAcceptViewController.swift */; };
+		5F5D8F5024CF8F7500E0E681 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8F4F24CF8F7500E0E681 /* LogoutViewController.swift */; };
+		5F5D8F5424CFC4FA00E0E681 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8F5324CFC4FA00E0E681 /* SignInViewController.swift */; };
+		5F5D8F5624D0CAA900E0E681 /* AdminLogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8F5524D0CAA900E0E681 /* AdminLogoutViewController.swift */; };
+		5F5D8F5A24D0D62D00E0E681 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8F5924D0D62D00E0E681 /* CreateUserViewController.swift */; };
+		5F5D8F5C24D3C11F00E0E681 /* AdminUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8F5B24D3C11F00E0E681 /* AdminUserViewController.swift */; };
+		5F5D8F5E24D5063A00E0E681 /* AdminWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8F5D24D5063A00E0E681 /* AdminWeekViewController.swift */; };
+		5F60C2A725B8C6B200237EEB /* DimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60C2A625B8C6B200237EEB /* DimeViewController.swift */; };
+		5F60C2AC25B8C6F700237EEB /* PastCrisisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60C2AB25B8C6F600237EEB /* PastCrisisViewController.swift */; };
+		5F60C2B125B8C70500237EEB /* PastWeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60C2B025B8C70500237EEB /* PastWeeklyViewController.swift */; };
+		5F60C2B625B90C9700237EEB /* UserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60C2B525B90C9700237EEB /* UserPageViewController.swift */; };
+		5F60C2BB25B90D1000237EEB /* UserDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60C2BA25B90D1000237EEB /* UserDayViewController.swift */; };
+		5F6418B824C2A47A0043EB08 /* MindfulnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6418B724C2A47A0043EB08 /* MindfulnessViewController.swift */; };
+		5F6418C524C375370043EB08 /* DTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6418C424C375370043EB08 /* DTViewController.swift */; };
+		5F6418C724C375440043EB08 /* ERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6418C624C375440043EB08 /* ERViewController.swift */; };
+		5F6418C924C375560043EB08 /* IEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6418C824C375560043EB08 /* IEViewController.swift */; };
+		5F6418CB24C3AF5E0043EB08 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6418CA24C3AF5E0043EB08 /* ReportViewController.swift */; };
+		5F6BA59724FDB16D00F783CF /* OAExViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BA59624FDB16D00F783CF /* OAExViewController.swift */; };
+		5F6DF17B25B93D3600A5A002 /* UserCrisisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6DF17A25B93D3600A5A002 /* UserCrisisViewController.swift */; };
+		5F6DF18625BBD54700A5A002 /* NoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6DF18525BBD54700A5A002 /* NoViewController.swift */; };
+		5F6DF18E25BBD55500A5A002 /* YesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6DF18D25BBD55500A5A002 /* YesViewController.swift */; };
+		5F6DF19325BBD56900A5A002 /* DimeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6DF19225BBD56900A5A002 /* DimeResultViewController.swift */; };
+		5FA010BF24E4D37B0037BE7B /* EmotionScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA010BE24E4D37B0037BE7B /* EmotionScaleViewController.swift */; };
+		5FA010C124E4E8B70037BE7B /* RateSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA010C024E4E8B70037BE7B /* RateSkillViewController.swift */; };
+		5FA010C524E4E8F40037BE7B /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA010C424E4E8F40037BE7B /* SuggestionViewController.swift */; };
+		5FB3822525CCCF1400CCA9D8 /* RootsUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3822425CCCF1400CCA9D8 /* RootsUsersViewController.swift */; };
+		5FB3822A25CCCF2700CCA9D8 /* AddAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3822925CCCF2700CCA9D8 /* AddAdminViewController.swift */; };
+		5FBE651425A13E2E006DF969 /* ObserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE651325A13E2E006DF969 /* ObserveViewController.swift */; };
+		5FBE651925A13E66006DF969 /* DescribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE651825A13E66006DF969 /* DescribeViewController.swift */; };
+		5FBE651E25A13E7A006DF969 /* ParticipateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE651D25A13E7A006DF969 /* ParticipateViewController.swift */; };
+		5FBE652325A13E8B006DF969 /* SolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE652225A13E8B006DF969 /* SolveViewController.swift */; };
+		5FBE652825A13E9B006DF969 /* EffectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE652725A13E9B006DF969 /* EffectiveViewController.swift */; };
+		5FBE652D25A13EA7006DF969 /* OneMindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE652C25A13EA7006DF969 /* OneMindViewController.swift */; };
+		5FBE653225A13EB8006DF969 /* NonjudgementalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE653125A13EB8006DF969 /* NonjudgementalViewController.swift */; };
+		5FBE653725A13EC6006DF969 /* ValidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE653625A13EC6006DF969 /* ValidateViewController.swift */; };
+		5FBE653C25A13ED7006DF969 /* PosReinforceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE653B25A13ED7006DF969 /* PosReinforceViewController.swift */; };
+		5FBE654125A13EE8006DF969 /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE654025A13EE8006DF969 /* EmotionsViewController.swift */; };
+		5FBE654625A13F05006DF969 /* ValsAndPriorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE654525A13F05006DF969 /* ValsAndPriorsViewController.swift */; };
+		5FBE654B25A13F11006DF969 /* DialecticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE654A25A13F11006DF969 /* DialecticViewController.swift */; };
+		5FBE655025A13F1F006DF969 /* PleasantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE654F25A13F1F006DF969 /* PleasantViewController.swift */; };
+		5FBE655525A13F2E006DF969 /* CopingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE655425A13F2E006DF969 /* CopingViewController.swift */; };
+		5FBE655A25A13F35006DF969 /* BuildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE655925A13F35006DF969 /* BuildViewController.swift */; };
+		5FBE655F25A13F3D006DF969 /* LongTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE655E25A13F3C006DF969 /* LongTermViewController.swift */; };
+		5FDEA0A8257075D900CDBCD5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEA0A7257075D900CDBCD5 /* PageViewController.swift */; };
+		5FDEA0E82570A25E00CDBCD5 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEA0E72570A25E00CDBCD5 /* DayViewController.swift */; };
+		5FF0068024EB34190080CDC6 /* PleaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0067F24EB34190080CDC6 /* PleaseViewController.swift */; };
+		5FF0068224EF5F0F0080CDC6 /* CrisisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0068124EF5F0F0080CDC6 /* CrisisViewController.swift */; };
+		5FF0068424EF5F210080CDC6 /* CrisisReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0068324EF5F210080CDC6 /* CrisisReportViewController.swift */; };
+		5FF1E25A24BFE4F500D26C11 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1E25924BFE4F400D26C11 /* ThirdViewController.swift */; };
+		5FF79FD924BEAC4000234851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF79FD824BEAC4000234851 /* AppDelegate.swift */; };
+		5FF79FDB24BEAC4000234851 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF79FDA24BEAC4000234851 /* SceneDelegate.swift */; };
+		5FF79FDD24BEAC4000234851 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF79FDC24BEAC4000234851 /* FirstViewController.swift */; };
+		5FF79FDF24BEAC4000234851 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF79FDE24BEAC4000234851 /* SecondViewController.swift */; };
+		5FF79FE224BEAC4000234851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF79FE024BEAC4000234851 /* Main.storyboard */; };
+		5FF79FE524BEAC4000234851 /* Roots Counseling.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FF79FE324BEAC4000234851 /* Roots Counseling.xcdatamodeld */; };
+		5FF79FEA24BEAC4300234851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF79FE824BEAC4300234851 /* LaunchScreen.storyboard */; };
+		5FF79FF524BEAC4300234851 /* Roots CounselingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF79FF424BEAC4300234851 /* Roots CounselingTests.swift */; };
+		5FF7A00024BEAC4300234851 /* Roots CounselingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF79FFF24BEAC4300234851 /* Roots CounselingUITests.swift */; };
+		5FF7A00E24BEAEBC00234851 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FF7A00D24BEAEBC00234851 /* GoogleService-Info.plist */; };
+		B34166144CED3F621BFE524E /* Pods_Roots_Counseling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7802AE6BDF22EA316E46ADF1 /* Pods_Roots_Counseling.framework */; };
+		EE4DCC9E439DE9B32E374D66 /* Pods_Roots_CounselingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C268EE317569D7950C1434 /* Pods_Roots_CounselingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FF79FF124BEAC4300234851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF79FCD24BEAC4000234851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF79FD424BEAC4000234851;
+			remoteInfo = RootsCapstoneProj;
+		};
+		5FF79FFC24BEAC4300234851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF79FCD24BEAC4000234851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF79FD424BEAC4000234851;
+			remoteInfo = RootsCapstoneProj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		277026620010505AE1A8ECB0 /* Pods_Roots_Counseling_Roots_CounselingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roots_Counseling_Roots_CounselingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE86DD12A6CA0461F8D0D64 /* Pods-Roots Counseling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roots Counseling.release.xcconfig"; path = "Target Support Files/Pods-Roots Counseling/Pods-Roots Counseling.release.xcconfig"; sourceTree = "<group>"; };
+		421700EC77A06E9A38232BD7 /* Pods-Roots Counseling-Roots CounselingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roots Counseling-Roots CounselingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Roots Counseling-Roots CounselingUITests/Pods-Roots Counseling-Roots CounselingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F08A8C325D4F9F4009B3883 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		5F08A8C825D4FA11009B3883 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		5F08A8CD25D4FA2B009B3883 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		5F08A8D525D7796F009B3883 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		5F2A1A7F24E89A8500924C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Admin.storyboard; sourceTree = "<group>"; };
+		5F2A787724DB86DE00360C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F37991025FB210400364017 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		5F424D0C25460A5F0003108E /* EmotionalModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalModelViewController.swift; sourceTree = "<group>"; };
+		5F424D1125460CAC0003108E /* EMStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMStepsViewController.swift; sourceTree = "<group>"; };
+		5F4720C124E892CB00CFE3FA /* SelectReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectReportViewController.swift; sourceTree = "<group>"; };
+		5F48D6C625105BD80031F1AD /* WiseMindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiseMindViewController.swift; sourceTree = "<group>"; };
+		5F502C30251057F10052BE61 /* WiseMindDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiseMindDraw.swift; sourceTree = "<group>"; };
+		5F50809E24F483170022660C /* SootheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SootheViewController.swift; sourceTree = "<group>"; };
+		5F5080A024F483510022660C /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
+		5F5080A424F99A7E0022660C /* OppositeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OppositeViewController.swift; sourceTree = "<group>"; };
+		5F5582882551160D0002DDAF /* AcceptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptsViewController.swift; sourceTree = "<group>"; };
+		5F55828D255116220002DDAF /* FastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastViewController.swift; sourceTree = "<group>"; };
+		5F55828E255116230002DDAF /* FactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
+		5F55828F255116230002DDAF /* GiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiveViewController.swift; sourceTree = "<group>"; };
+		5F558290255116230002DDAF /* DearManViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DearManViewController.swift; sourceTree = "<group>"; };
+		5F5582982551162C0002DDAF /* ProsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProsViewController.swift; sourceTree = "<group>"; };
+		5F5582992551162D0002DDAF /* PleaseSkillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PleaseSkillViewController.swift; sourceTree = "<group>"; };
+		5F55829A2551162D0002DDAF /* ImproveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImproveViewController.swift; sourceTree = "<group>"; };
+		5F5582A1255116410002DDAF /* TippViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TippViewController.swift; sourceTree = "<group>"; };
+		5F5582A62554E4B80002DDAF /* StopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopViewController.swift; sourceTree = "<group>"; };
+		5F5582AB2554E4CF0002DDAF /* RadicalAcceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadicalAcceptViewController.swift; sourceTree = "<group>"; };
+		5F5D8F4F24CF8F7500E0E681 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		5F5D8F5324CFC4FA00E0E681 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5F5D8F5524D0CAA900E0E681 /* AdminLogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLogoutViewController.swift; sourceTree = "<group>"; };
+		5F5D8F5924D0D62D00E0E681 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		5F5D8F5B24D3C11F00E0E681 /* AdminUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminUserViewController.swift; sourceTree = "<group>"; };
+		5F5D8F5D24D5063A00E0E681 /* AdminWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminWeekViewController.swift; sourceTree = "<group>"; };
+		5F60C2A625B8C6B200237EEB /* DimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeViewController.swift; sourceTree = "<group>"; };
+		5F60C2AB25B8C6F600237EEB /* PastCrisisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastCrisisViewController.swift; sourceTree = "<group>"; };
+		5F60C2B025B8C70500237EEB /* PastWeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastWeeklyViewController.swift; sourceTree = "<group>"; };
+		5F60C2B525B90C9700237EEB /* UserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageViewController.swift; sourceTree = "<group>"; };
+		5F60C2BA25B90D1000237EEB /* UserDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDayViewController.swift; sourceTree = "<group>"; };
+		5F6418B724C2A47A0043EB08 /* MindfulnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessViewController.swift; sourceTree = "<group>"; };
+		5F6418C424C375370043EB08 /* DTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTViewController.swift; sourceTree = "<group>"; };
+		5F6418C624C375440043EB08 /* ERViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERViewController.swift; sourceTree = "<group>"; };
+		5F6418C824C375560043EB08 /* IEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEViewController.swift; sourceTree = "<group>"; };
+		5F6418CA24C3AF5E0043EB08 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		5F6BA59624FDB16D00F783CF /* OAExViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAExViewController.swift; sourceTree = "<group>"; };
+		5F6DF17A25B93D3600A5A002 /* UserCrisisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCrisisViewController.swift; sourceTree = "<group>"; };
+		5F6DF18525BBD54700A5A002 /* NoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoViewController.swift; sourceTree = "<group>"; };
+		5F6DF18D25BBD55500A5A002 /* YesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesViewController.swift; sourceTree = "<group>"; };
+		5F6DF19225BBD56900A5A002 /* DimeResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeResultViewController.swift; sourceTree = "<group>"; };
+		5FA010BE24E4D37B0037BE7B /* EmotionScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionScaleViewController.swift; sourceTree = "<group>"; };
+		5FA010C024E4E8B70037BE7B /* RateSkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateSkillViewController.swift; sourceTree = "<group>"; };
+		5FA010C424E4E8F40037BE7B /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		5FB3822425CCCF1400CCA9D8 /* RootsUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootsUsersViewController.swift; sourceTree = "<group>"; };
+		5FB3822925CCCF2700CCA9D8 /* AddAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAdminViewController.swift; sourceTree = "<group>"; };
+		5FBE651325A13E2E006DF969 /* ObserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveViewController.swift; sourceTree = "<group>"; };
+		5FBE651825A13E66006DF969 /* DescribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescribeViewController.swift; sourceTree = "<group>"; };
+		5FBE651D25A13E7A006DF969 /* ParticipateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipateViewController.swift; sourceTree = "<group>"; };
+		5FBE652225A13E8B006DF969 /* SolveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveViewController.swift; sourceTree = "<group>"; };
+		5FBE652725A13E9B006DF969 /* EffectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveViewController.swift; sourceTree = "<group>"; };
+		5FBE652C25A13EA7006DF969 /* OneMindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMindViewController.swift; sourceTree = "<group>"; };
+		5FBE653125A13EB8006DF969 /* NonjudgementalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonjudgementalViewController.swift; sourceTree = "<group>"; };
+		5FBE653625A13EC6006DF969 /* ValidateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateViewController.swift; sourceTree = "<group>"; };
+		5FBE653B25A13ED7006DF969 /* PosReinforceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosReinforceViewController.swift; sourceTree = "<group>"; };
+		5FBE654025A13EE8006DF969 /* EmotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
+		5FBE654525A13F05006DF969 /* ValsAndPriorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValsAndPriorsViewController.swift; sourceTree = "<group>"; };
+		5FBE654A25A13F11006DF969 /* DialecticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialecticViewController.swift; sourceTree = "<group>"; };
+		5FBE654F25A13F1F006DF969 /* PleasantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PleasantViewController.swift; sourceTree = "<group>"; };
+		5FBE655425A13F2E006DF969 /* CopingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopingViewController.swift; sourceTree = "<group>"; };
+		5FBE655925A13F35006DF969 /* BuildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildViewController.swift; sourceTree = "<group>"; };
+		5FBE655E25A13F3C006DF969 /* LongTermViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermViewController.swift; sourceTree = "<group>"; };
+		5FDEA0A7257075D900CDBCD5 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		5FDEA0E72570A25E00CDBCD5 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		5FF0067F24EB34190080CDC6 /* PleaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PleaseViewController.swift; sourceTree = "<group>"; };
+		5FF0068124EF5F0F0080CDC6 /* CrisisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrisisViewController.swift; sourceTree = "<group>"; };
+		5FF0068324EF5F210080CDC6 /* CrisisReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrisisReportViewController.swift; sourceTree = "<group>"; };
+		5FF1E25924BFE4F400D26C11 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5FF79FD524BEAC4000234851 /* Roots Counseling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roots Counseling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF79FD824BEAC4000234851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FF79FDA24BEAC4000234851 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FF79FDC24BEAC4000234851 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5FF79FDE24BEAC4000234851 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5FF79FE124BEAC4000234851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF79FE424BEAC4000234851 /* Roots Counseling.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Roots Counseling.xcdatamodel"; sourceTree = "<group>"; };
+		5FF79FE924BEAC4300234851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF79FEB24BEAC4300234851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF79FF024BEAC4300234851 /* Roots CounselingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roots CounselingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF79FF424BEAC4300234851 /* Roots CounselingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roots CounselingTests.swift"; sourceTree = "<group>"; };
+		5FF79FF624BEAC4300234851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF79FFB24BEAC4300234851 /* Roots CounselingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roots CounselingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF79FFF24BEAC4300234851 /* Roots CounselingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roots CounselingUITests.swift"; sourceTree = "<group>"; };
+		5FF7A00124BEAC4300234851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF7A00D24BEAEBC00234851 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		603004A41A88F747DABBDE4B /* Pods-Roots Counseling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roots Counseling.debug.xcconfig"; path = "Target Support Files/Pods-Roots Counseling/Pods-Roots Counseling.debug.xcconfig"; sourceTree = "<group>"; };
+		6B73D30FF6F25253CA1989D5 /* Pods-Roots CounselingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roots CounselingTests.debug.xcconfig"; path = "Target Support Files/Pods-Roots CounselingTests/Pods-Roots CounselingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7802AE6BDF22EA316E46ADF1 /* Pods_Roots_Counseling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roots_Counseling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6454AF8D677789FAC26A821 /* Pods-Roots CounselingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roots CounselingTests.release.xcconfig"; path = "Target Support Files/Pods-Roots CounselingTests/Pods-Roots CounselingTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C268EE317569D7950C1434 /* Pods_Roots_CounselingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roots_CounselingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CDA1592ED174E33B020E5A /* Pods-Roots Counseling-Roots CounselingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roots Counseling-Roots CounselingUITests.release.xcconfig"; path = "Target Support Files/Pods-Roots Counseling-Roots CounselingUITests/Pods-Roots Counseling-Roots CounselingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF79FD224BEAC4000234851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34166144CED3F621BFE524E /* Pods_Roots_Counseling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF79FED24BEAC4300234851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DCC9E439DE9B32E374D66 /* Pods_Roots_CounselingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF79FF824BEAC4300234851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330644EC53EAF1F10C70924C /* Pods_Roots_Counseling_Roots_CounselingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4262A4AA9504A7AE2CB9AC6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7802AE6BDF22EA316E46ADF1 /* Pods_Roots_Counseling.framework */,
+				277026620010505AE1A8ECB0 /* Pods_Roots_Counseling_Roots_CounselingUITests.framework */,
+				D8C268EE317569D7950C1434 /* Pods_Roots_CounselingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F9B1EE6252C124B002E5651 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				5F5D8F5B24D3C11F00E0E681 /* AdminUserViewController.swift */,
+				5F4720C124E892CB00CFE3FA /* SelectReportViewController.swift */,
+				5F5D8F5D24D5063A00E0E681 /* AdminWeekViewController.swift */,
+				5FDEA0E72570A25E00CDBCD5 /* DayViewController.swift */,
+				5FDEA0A7257075D900CDBCD5 /* PageViewController.swift */,
+				5FF0068124EF5F0F0080CDC6 /* CrisisViewController.swift */,
+				5FF0068324EF5F210080CDC6 /* CrisisReportViewController.swift */,
+				5F5D8F5524D0CAA900E0E681 /* AdminLogoutViewController.swift */,
+				5FB3822425CCCF1400CCA9D8 /* RootsUsersViewController.swift */,
+				5FB3822925CCCF2700CCA9D8 /* AddAdminViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		5F9B1EE7252C1291002E5651 /* Crisis */ = {
+			isa = PBXGroup;
+			children = (
+				5FA010BE24E4D37B0037BE7B /* EmotionScaleViewController.swift */,
+				5FF0067F24EB34190080CDC6 /* PleaseViewController.swift */,
+				5FA010C424E4E8F40037BE7B /* SuggestionViewController.swift */,
+				5FA010C024E4E8B70037BE7B /* RateSkillViewController.swift */,
+			);
+			path = Crisis;
+			sourceTree = "<group>";
+		};
+		5FF79FCC24BEAC4000234851 = {
+			isa = PBXGroup;
+			children = (
+				5FF79FD724BEAC4000234851 /* Roots Counseling */,
+				5FF79FF324BEAC4300234851 /* Roots CounselingTests */,
+				5FF79FFE24BEAC4300234851 /* Roots CounselingUITests */,
+				5FF79FD624BEAC4000234851 /* Products */,
+				F8EC70A30264AA7F8843977C /* Pods */,
+				4262A4AA9504A7AE2CB9AC6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF79FD624BEAC4000234851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF79FD524BEAC4000234851 /* Roots Counseling.app */,
+				5FF79FF024BEAC4300234851 /* Roots CounselingTests.xctest */,
+				5FF79FFB24BEAC4300234851 /* Roots CounselingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF79FD724BEAC4000234851 /* Roots Counseling */ = {
+			isa = PBXGroup;
+			children = (
+				5FF79FD824BEAC4000234851 /* AppDelegate.swift */,
+				5FF79FDA24BEAC4000234851 /* SceneDelegate.swift */,
+				5F5D8F5324CFC4FA00E0E681 /* SignInViewController.swift */,
+				5F5D8F5924D0D62D00E0E681 /* CreateUserViewController.swift */,
+				5FF79FDC24BEAC4000234851 /* FirstViewController.swift */,
+				5F6418C424C375370043EB08 /* DTViewController.swift */,
+				5F6418C624C375440043EB08 /* ERViewController.swift */,
+				5F6418C824C375560043EB08 /* IEViewController.swift */,
+				5F6418B724C2A47A0043EB08 /* MindfulnessViewController.swift */,
+				5F5582882551160D0002DDAF /* AcceptsViewController.swift */,
+				5F5080A024F483510022660C /* BreatheViewController.swift */,
+				5FBE655925A13F35006DF969 /* BuildViewController.swift */,
+				5FBE655425A13F2E006DF969 /* CopingViewController.swift */,
+				5F558290255116230002DDAF /* DearManViewController.swift */,
+				5FBE651825A13E66006DF969 /* DescribeViewController.swift */,
+				5FBE654A25A13F11006DF969 /* DialecticViewController.swift */,
+				5F60C2A625B8C6B200237EEB /* DimeViewController.swift */,
+				5F6DF19225BBD56900A5A002 /* DimeResultViewController.swift */,
+				5F6DF18D25BBD55500A5A002 /* YesViewController.swift */,
+				5F6DF18525BBD54700A5A002 /* NoViewController.swift */,
+				5FBE652725A13E9B006DF969 /* EffectiveViewController.swift */,
+				5FBE654025A13EE8006DF969 /* EmotionsViewController.swift */,
+				5F424D0C25460A5F0003108E /* EmotionalModelViewController.swift */,
+				5F424D1125460CAC0003108E /* EMStepsViewController.swift */,
+				5F55828E255116230002DDAF /* FactsViewController.swift */,
+				5F55828D255116220002DDAF /* FastViewController.swift */,
+				5F55828F255116230002DDAF /* GiveViewController.swift */,
+				5F55829A2551162D0002DDAF /* ImproveViewController.swift */,
+				5FBE655E25A13F3C006DF969 /* LongTermViewController.swift */,
+				5FBE653125A13EB8006DF969 /* NonjudgementalViewController.swift */,
+				5FBE651325A13E2E006DF969 /* ObserveViewController.swift */,
+				5FBE652C25A13EA7006DF969 /* OneMindViewController.swift */,
+				5F5080A424F99A7E0022660C /* OppositeViewController.swift */,
+				5F6BA59624FDB16D00F783CF /* OAExViewController.swift */,
+				5FBE651D25A13E7A006DF969 /* ParticipateViewController.swift */,
+				5FBE654F25A13F1F006DF969 /* PleasantViewController.swift */,
+				5F5582992551162D0002DDAF /* PleaseSkillViewController.swift */,
+				5FBE653B25A13ED7006DF969 /* PosReinforceViewController.swift */,
+				5F5582982551162C0002DDAF /* ProsViewController.swift */,
+				5F5582AB2554E4CF0002DDAF /* RadicalAcceptViewController.swift */,
+				5FBE652225A13E8B006DF969 /* SolveViewController.swift */,
+				5F50809E24F483170022660C /* SootheViewController.swift */,
+				5F5582A62554E4B80002DDAF /* StopViewController.swift */,
+				5F5582A1255116410002DDAF /* TippViewController.swift */,
+				5FBE653625A13EC6006DF969 /* ValidateViewController.swift */,
+				5FBE654525A13F05006DF969 /* ValsAndPriorsViewController.swift */,
+				5F48D6C625105BD80031F1AD /* WiseMindViewController.swift */,
+				5F502C30251057F10052BE61 /* WiseMindDraw.swift */,
+				5FF79FDE24BEAC4000234851 /* SecondViewController.swift */,
+				5F37991025FB210400364017 /* PhoneViewController.swift */,
+				5F9B1EE7252C1291002E5651 /* Crisis */,
+				5FF1E25924BFE4F400D26C11 /* ThirdViewController.swift */,
+				5F6418CA24C3AF5E0043EB08 /* ReportViewController.swift */,
+				5F5D8F4F24CF8F7500E0E681 /* LogoutViewController.swift */,
+				5F60C2AB25B8C6F600237EEB /* PastCrisisViewController.swift */,
+				5F6DF17A25B93D3600A5A002 /* UserCrisisViewController.swift */,
+				5F08A8C825D4FA11009B3883 /* JournalViewController.swift */,
+				5F08A8CD25D4FA2B009B3883 /* JournalTableViewController.swift */,
+				5F08A8C325D4F9F4009B3883 /* EditViewController.swift */,
+				5F08A8D525D7796F009B3883 /* UpdateViewController.swift */,
+				5F60C2B025B8C70500237EEB /* PastWeeklyViewController.swift */,
+				5F60C2BA25B90D1000237EEB /* UserDayViewController.swift */,
+				5F60C2B525B90C9700237EEB /* UserPageViewController.swift */,
+				5F9B1EE6252C124B002E5651 /* Admin */,
+				5FF79FE024BEAC4000234851 /* Main.storyboard */,
+				5F2A1A7E24E89A8500924C47 /* Admin.storyboard */,
+				5FF79FE824BEAC4300234851 /* LaunchScreen.storyboard */,
+				5F2A787724DB86DE00360C90 /* Assets.xcassets */,
+				5FF79FE324BEAC4000234851 /* Roots Counseling.xcdatamodeld */,
+				5FF7A00D24BEAEBC00234851 /* GoogleService-Info.plist */,
+				5FF79FEB24BEAC4300234851 /* Info.plist */,
+			);
+			path = "Roots Counseling";
+			sourceTree = "<group>";
+		};
+		5FF79FF324BEAC4300234851 /* Roots CounselingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF79FF424BEAC4300234851 /* Roots CounselingTests.swift */,
+				5FF79FF624BEAC4300234851 /* Info.plist */,
+			);
+			path = "Roots CounselingTests";
+			sourceTree = "<group>";
+		};
+		5FF79FFE24BEAC4300234851 /* Roots CounselingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF79FFF24BEAC4300234851 /* Roots CounselingUITests.swift */,
+				5FF7A00124BEAC4300234851 /* Info.plist */,
+			);
+			path = "Roots CounselingUITests";
+			sourceTree = "<group>";
+		};
+		F8EC70A30264AA7F8843977C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				603004A41A88F747DABBDE4B /* Pods-Roots Counseling.debug.xcconfig */,
+				2FE86DD12A6CA0461F8D0D64 /* Pods-Roots Counseling.release.xcconfig */,
+				421700EC77A06E9A38232BD7 /* Pods-Roots Counseling-Roots CounselingUITests.debug.xcconfig */,
+				E1CDA1592ED174E33B020E5A /* Pods-Roots Counseling-Roots CounselingUITests.release.xcconfig */,
+				6B73D30FF6F25253CA1989D5 /* Pods-Roots CounselingTests.debug.xcconfig */,
+				A6454AF8D677789FAC26A821 /* Pods-Roots CounselingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF79FD424BEAC4000234851 /* Roots Counseling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF7A00424BEAC4300234851 /* Build configuration list for PBXNativeTarget "Roots Counseling" */;
+			buildPhases = (
+				0401D23E6935106AF19DD048 /* [CP] Check Pods Manifest.lock */,
+				5FF79FD124BEAC4000234851 /* Sources */,
+				5FF79FD224BEAC4000234851 /* Frameworks */,
+				5FF79FD324BEAC4000234851 /* Resources */,
+				1DB5A8599DCFAFCEB4087E8F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roots Counseling";
+			productName = RootsCapstoneProj;
+			productReference = 5FF79FD524BEAC4000234851 /* Roots Counseling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FF79FEF24BEAC4300234851 /* Roots CounselingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF7A00724BEAC4300234851 /* Build configuration list for PBXNativeTarget "Roots CounselingTests" */;
+			buildPhases = (
+				847DF38F5A4AEF2BDE06DCF7 /* [CP] Check Pods Manifest.lock */,
+				5FF79FEC24BEAC4300234851 /* Sources */,
+				5FF79FED24BEAC4300234851 /* Frameworks */,
+				5FF79FEE24BEAC4300234851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF79FF224BEAC4300234851 /* PBXTargetDependency */,
+			);
+			name = "Roots CounselingTests";
+			productName = RootsCapstoneProjTests;
+			productReference = 5FF79FF024BEAC4300234851 /* Roots CounselingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FF79FFA24BEAC4300234851 /* Roots CounselingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF7A00A24BEAC4300234851 /* Build configuration list for PBXNativeTarget "Roots CounselingUITests" */;
+			buildPhases = (
+				98A10948BE72AA94A9996341 /* [CP] Check Pods Manifest.lock */,
+				5FF79FF724BEAC4300234851 /* Sources */,
+				5FF79FF824BEAC4300234851 /* Frameworks */,
+				5FF79FF924BEAC4300234851 /* Resources */,
+				55F6CCCA89FE0D21F546E254 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF79FFD24BEAC4300234851 /* PBXTargetDependency */,
+			);
+			name = "Roots CounselingUITests";
+			productName = RootsCapstoneProjUITests;
+			productReference = 5FF79FFB24BEAC4300234851 /* Roots CounselingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF79FCD24BEAC4000234851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Abby Allen";
+				TargetAttributes = {
+					5FF79FD424BEAC4000234851 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5FF79FEF24BEAC4300234851 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5FF79FD424BEAC4000234851;
+					};
+					5FF79FFA24BEAC4300234851 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5FF79FD424BEAC4000234851;
+					};
+				};
+			};
+			buildConfigurationList = 5FF79FD024BEAC4000234851 /* Build configuration list for PBXProject "Roots Counseling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF79FCC24BEAC4000234851;
+			productRefGroup = 5FF79FD624BEAC4000234851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF79FD424BEAC4000234851 /* Roots Counseling */,
+				5FF79FEF24BEAC4300234851 /* Roots CounselingTests */,
+				5FF79FFA24BEAC4300234851 /* Roots CounselingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF79FD324BEAC4000234851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF79FEA24BEAC4300234851 /* LaunchScreen.storyboard in Resources */,
+				5F2A1A8024E89A8600924C47 /* Admin.storyboard in Resources */,
+				5FF7A00E24BEAEBC00234851 /* GoogleService-Info.plist in Resources */,
+				5FF79FE224BEAC4000234851 /* Main.storyboard in Resources */,
+				5F2A787824DB86DE00360C90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF79FEE24BEAC4300234851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF79FF924BEAC4300234851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0401D23E6935106AF19DD048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roots Counseling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB5A8599DCFAFCEB4087E8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Roots Counseling/Pods-Roots Counseling-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Roots Counseling/Pods-Roots Counseling-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Roots Counseling/Pods-Roots Counseling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55F6CCCA89FE0D21F546E254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Roots Counseling-Roots CounselingUITests/Pods-Roots Counseling-Roots CounselingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Roots Counseling-Roots CounselingUITests/Pods-Roots Counseling-Roots CounselingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Roots Counseling-Roots CounselingUITests/Pods-Roots Counseling-Roots CounselingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847DF38F5A4AEF2BDE06DCF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roots CounselingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A10948BE72AA94A9996341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roots Counseling-Roots CounselingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF79FD124BEAC4000234851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F50809F24F483170022660C /* SootheViewController.swift in Sources */,
+				5F5582A2255116410002DDAF /* TippViewController.swift in Sources */,
+				5F5D8F5424CFC4FA00E0E681 /* SignInViewController.swift in Sources */,
+				5F6418C524C375370043EB08 /* DTViewController.swift in Sources */,
+				5F08A8C925D4FA11009B3883 /* JournalViewController.swift in Sources */,
+				5F4720C224E892CB00CFE3FA /* SelectReportViewController.swift in Sources */,
+				5F558292255116230002DDAF /* FactsViewController.swift in Sources */,
+				5FF79FDF24BEAC4000234851 /* SecondViewController.swift in Sources */,
+				5F5D8F5C24D3C11F00E0E681 /* AdminUserViewController.swift in Sources */,
+				5FBE652325A13E8B006DF969 /* SolveViewController.swift in Sources */,
+				5F5D8F5E24D5063A00E0E681 /* AdminWeekViewController.swift in Sources */,
+				5F6418C924C375560043EB08 /* IEViewController.swift in Sources */,
+				5F5582A72554E4B80002DDAF /* StopViewController.swift in Sources */,
+				5FA010BF24E4D37B0037BE7B /* EmotionScaleViewController.swift in Sources */,
+				5F48D6C725105BD80031F1AD /* WiseMindViewController.swift in Sources */,
+				5FA010C124E4E8B70037BE7B /* RateSkillViewController.swift in Sources */,
+				5F558293255116230002DDAF /* GiveViewController.swift in Sources */,
+				5FB3822A25CCCF2700CCA9D8 /* AddAdminViewController.swift in Sources */,
+				5F08A8C425D4F9F5009B3883 /* EditViewController.swift in Sources */,
+				5FBE652D25A13EA7006DF969 /* OneMindViewController.swift in Sources */,
+				5FDEA0A8257075D900CDBCD5 /* PageViewController.swift in Sources */,
+				5FBE655F25A13F3D006DF969 /* LongTermViewController.swift in Sources */,
+				5F08A8CE25D4FA2B009B3883 /* JournalTableViewController.swift in Sources */,
+				5FF0068024EB34190080CDC6 /* PleaseViewController.swift in Sources */,
+				5FBE653225A13EB8006DF969 /* NonjudgementalViewController.swift in Sources */,
+				5FBE655525A13F2E006DF969 /* CopingViewController.swift in Sources */,
+				5FBE651E25A13E7A006DF969 /* ParticipateViewController.swift in Sources */,
+				5F55829B2551162D0002DDAF /* ProsViewController.swift in Sources */,
+				5FA010C524E4E8F40037BE7B /* SuggestionViewController.swift in Sources */,
+				5F6BA59724FDB16D00F783CF /* OAExViewController.swift in Sources */,
+				5FF79FDD24BEAC4000234851 /* FirstViewController.swift in Sources */,
+				5F5D8F5624D0CAA900E0E681 /* AdminLogoutViewController.swift in Sources */,
+				5FBE652825A13E9B006DF969 /* EffectiveViewController.swift in Sources */,
+				5FBE654625A13F05006DF969 /* ValsAndPriorsViewController.swift in Sources */,
+				5FBE655A25A13F35006DF969 /* BuildViewController.swift in Sources */,
+				5F5D8F5024CF8F7500E0E681 /* LogoutViewController.swift in Sources */,
+				5F6DF17B25B93D3600A5A002 /* UserCrisisViewController.swift in Sources */,
+				5F60C2B125B8C70500237EEB /* PastWeeklyViewController.swift in Sources */,
+				5F55829D2551162D0002DDAF /* ImproveViewController.swift in Sources */,
+				5FBE655025A13F1F006DF969 /* PleasantViewController.swift in Sources */,
+				5FBE654125A13EE8006DF969 /* EmotionsViewController.swift in Sources */,
+				5F37991125FB210400364017 /* PhoneViewController.swift in Sources */,
+				5F6DF18625BBD54700A5A002 /* NoViewController.swift in Sources */,
+				5F558291255116230002DDAF /* FastViewController.swift in Sources */,
+				5F60C2A725B8C6B200237EEB /* DimeViewController.swift in Sources */,
+				5F502C31251057F20052BE61 /* WiseMindDraw.swift in Sources */,
+				5F6DF18E25BBD55500A5A002 /* YesViewController.swift in Sources */,
+				5FBE651425A13E2E006DF969 /* ObserveViewController.swift in Sources */,
+				5F6418CB24C3AF5E0043EB08 /* ReportViewController.swift in Sources */,
+				5FBE653C25A13ED7006DF969 /* PosReinforceViewController.swift in Sources */,
+				5FBE651925A13E66006DF969 /* DescribeViewController.swift in Sources */,
+				5FF0068224EF5F0F0080CDC6 /* CrisisViewController.swift in Sources */,
+				5FF79FE524BEAC4000234851 /* Roots Counseling.xcdatamodeld in Sources */,
+				5F60C2BB25B90D1000237EEB /* UserDayViewController.swift in Sources */,
+				5F424D1225460CAC0003108E /* EMStepsViewController.swift in Sources */,
+				5F424D0D25460A5F0003108E /* EmotionalModelViewController.swift in Sources */,
+				5FF79FD924BEAC4000234851 /* AppDelegate.swift in Sources */,
+				5F5582AC2554E4CF0002DDAF /* RadicalAcceptViewController.swift in Sources */,
+				5F558294255116230002DDAF /* DearManViewController.swift in Sources */,
+				5F5582892551160D0002DDAF /* AcceptsViewController.swift in Sources */,
+				5FBE653725A13EC6006DF969 /* ValidateViewController.swift in Sources */,
+				5F5D8F5A24D0D62D00E0E681 /* CreateUserViewController.swift in Sources */,
+				5F60C2B625B90C9700237EEB /* UserPageViewController.swift in Sources */,
+				5F55829C2551162D0002DDAF /* PleaseSkillViewController.swift in Sources */,
+				5F6418B824C2A47A0043EB08 /* MindfulnessViewController.swift in Sources */,
+				5F5080A524F99A7E0022660C /* OppositeViewController.swift in Sources */,
+				5FF1E25A24BFE4F500D26C11 /* ThirdViewController.swift in Sources */,
+				5FB3822525CCCF1400CCA9D8 /* RootsUsersViewController.swift in Sources */,
+				5F08A8D625D7796F009B3883 /* UpdateViewController.swift in Sources */,
+				5FF79FDB24BEAC4000234851 /* SceneDelegate.swift in Sources */,
+				5F5080A124F483510022660C /* BreatheViewController.swift in Sources */,
+				5FF0068424EF5F210080CDC6 /* CrisisReportViewController.swift in Sources */,
+				5F6418C724C375440043EB08 /* ERViewController.swift in Sources */,
+				5F6DF19325BBD56900A5A002 /* DimeResultViewController.swift in Sources */,
+				5F60C2AC25B8C6F700237EEB /* PastCrisisViewController.swift in Sources */,
+				5FBE654B25A13F11006DF969 /* DialecticViewController.swift in Sources */,
+				5FDEA0E82570A25E00CDBCD5 /* DayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF79FEC24BEAC4300234851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF79FF524BEAC4300234851 /* Roots CounselingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF79FF724BEAC4300234851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF7A00024BEAC4300234851 /* Roots CounselingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF79FF224BEAC4300234851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF79FD424BEAC4000234851 /* Roots Counseling */;
+			targetProxy = 5FF79FF124BEAC4300234851 /* PBXContainerItemProxy */;
+		};
+		5FF79FFD24BEAC4300234851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF79FD424BEAC4000234851 /* Roots Counseling */;
+			targetProxy = 5FF79FFC24BEAC4300234851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F2A1A7E24E89A8500924C47 /* Admin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2A1A7F24E89A8500924C47 /* Base */,
+			);
+			name = Admin.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF79FE024BEAC4000234851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF79FE124BEAC4000234851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF79FE824BEAC4300234851 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF79FE924BEAC4300234851 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF7A00224BEAC4300234851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FF7A00324BEAC4300234851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF7A00524BEAC4300234851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603004A41A88F747DABBDE4B /* Pods-Roots Counseling.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 29;
+				DEVELOPMENT_TEAM = CUP4J5W2L5;
+				INFOPLIST_FILE = "Roots Counseling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abbyallen.RootsCounseling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF7A00624BEAC4300234851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE86DD12A6CA0461F8D0D64 /* Pods-Roots Counseling.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 29;
+				DEVELOPMENT_TEAM = CUP4J5W2L5;
+				INFOPLIST_FILE = "Roots Counseling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abbyallen.RootsCounseling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FF7A00824BEAC4300234851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B73D30FF6F25253CA1989D5 /* Pods-Roots CounselingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUP4J5W2L5;
+				INFOPLIST_FILE = "Roots CounselingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abbyallen.Roots CounselingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roots Counseling.app/Roots Counseling";
+			};
+			name = Debug;
+		};
+		5FF7A00924BEAC4300234851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6454AF8D677789FAC26A821 /* Pods-Roots CounselingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUP4J5W2L5;
+				INFOPLIST_FILE = "Roots CounselingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abbyallen.Roots CounselingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roots Counseling.app/Roots Counseling";
+			};
+			name = Release;
+		};
+		5FF7A00B24BEAC4300234851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421700EC77A06E9A38232BD7 /* Pods-Roots Counseling-Roots CounselingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUP4J5W2L5;
+				INFOPLIST_FILE = "Roots CounselingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abbyallen.Roots CounselingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RootsCapstoneProj;
+			};
+			name = Debug;
+		};
+		5FF7A00C24BEAC4300234851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CDA1592ED174E33B020E5A /* Pods-Roots Counseling-Roots CounselingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUP4J5W2L5;
+				INFOPLIST_FILE = "Roots CounselingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abbyallen.Roots CounselingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RootsCapstoneProj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF79FD024BEAC4000234851 /* Build configuration list for PBXProject "Roots Counseling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF7A00224BEAC4300234851 /* Debug */,
+				5FF7A00324BEAC4300234851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF7A00424BEAC4300234851 /* Build configuration list for PBXNativeTarget "Roots Counseling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF7A00524BEAC4300234851 /* Debug */,
+				5FF7A00624BEAC4300234851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF7A00724BEAC4300234851 /* Build configuration list for PBXNativeTarget "Roots CounselingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF7A00824BEAC4300234851 /* Debug */,
+				5FF7A00924BEAC4300234851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF7A00A24BEAC4300234851 /* Build configuration list for PBXNativeTarget "Roots CounselingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF7A00B24BEAC4300234851 /* Debug */,
+				5FF7A00C24BEAC4300234851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FF79FE324BEAC4000234851 /* Roots Counseling.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FF79FE424BEAC4000234851 /* Roots Counseling.xcdatamodel */,
+			);
+			currentVersion = 5FF79FE424BEAC4000234851 /* Roots Counseling.xcdatamodel */;
+			path = "Roots Counseling.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FF79FCD24BEAC4000234851 /* Project object */;
+}
