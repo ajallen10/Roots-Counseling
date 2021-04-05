@@ -69,7 +69,7 @@ Email Address:
 rootscounselingcc@gmail.com
  
 Telephone number:
-4352332240
+(435)233-2240
  
 Effective as of April 05, 2021
 ## App Details
