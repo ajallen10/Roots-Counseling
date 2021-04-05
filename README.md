@@ -2,7 +2,7 @@
 ## Privacy Policy
 Protecting your private information is our priority. This Statement of Privacy applies to www.rootscounselingcc.com, and Roots Counseling and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to Roots Counseling include www.rootscounselingcc.com. The Roots Counseling website is a Roots Counseling IOS app site. By using the Roots Counseling website, you consent to the data practices described in this statement.
  
-###Collection of your Personal Information
+<b>Collection of your Personal Information</b>
 We do not collect any personal information about you unless you voluntarily provide it to us. However, you may be required to provide certain personal information to us when you elect to use certain products or services. These may include: (a) registering for an account; (b) entering a sweepstakes or contest sponsored by us or one of our partners; (c) signing up for special offers from selected third parties; (d) sending us an email message; (e) submitting your credit card or other payment information when ordering and purchasing products and services. To wit, we will use your information for, but not limited to, communicating with you in relation to services and/or products you have requested from us. We also may gather additional personal or non-personal information in the future.
  
 Sharing Information with Third Parties
