@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FirebaseDatabase
 import FirebaseAuth
 import FirebaseFirestore
 
@@ -46,7 +45,27 @@ class AdminUserViewController: UIViewController, UITableViewDataSource, UITableV
                 print("Error getting documents: \(err)")
             } else {
                 for document in querySnapshot!.documents {
-                    if document.get("admin") as! Int == 0 && document.get("roots") as! Int == 1 {
+                    var doc = ""
+                    var docI = -1
+                    var rootI = -1
+                    var root = ""
+                    
+                    if(document.get("admin") as? String != nil){
+                        doc = document.get("admin") as! String
+                        root = document.get("roots") as! String
+                    }
+                    
+                    if(document.get("admin") as? Int != nil){
+                        docI = document.get("admin") as! Int
+                        rootI = document.get("roots") as! Int
+                    }
+                    
+                    if docI == 0 && rootI == 1 {
+                        self.arr.append(document.get("name") as! String)
+                        self.newArr.append(document.documentID)
+                    }
+                    
+                    if doc == "false" && root == "true" {
                         self.arr.append(document.get("name") as! String)
                         self.newArr.append(document.documentID)
                     }

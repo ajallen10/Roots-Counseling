@@ -8,8 +8,6 @@
 
 import UIKit
 import CoreData
-import FirebaseAuth
-import FirebaseFirestore
 import FirebaseCore
 
 @UIApplicationMain
@@ -21,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       didFinishLaunchingWithOptions launchOptions:
         [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        self.window?.rootViewController = viewController()
+        self.window?.makeKeyAndVisible()
         
         return true
     }

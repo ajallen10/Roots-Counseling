@@ -8,7 +8,7 @@
 
 import UIKit
 import FirebaseAuth
-import FirebaseDatabase
+//import FirebaseDatabase
 import FirebaseFirestore
 
 class CrisisViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {

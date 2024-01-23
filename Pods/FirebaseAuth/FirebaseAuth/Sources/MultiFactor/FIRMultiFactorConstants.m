@@ -14,13 +14,14 @@
  * limitations under the License.
  */
 
-#include <TargetConditionals.h>
+#import <TargetConditionals.h>
 #if TARGET_OS_IOS
 
 #import <Foundation/Foundation.h>
 
 #pragma mark - Multi Factor ID constants
 
-NSString *const FIRPhoneMultiFactorID = @"1";
+NSString *const FIRPhoneMultiFactorID = @"phone";
+NSString *const FIRTOTPMultiFactorID = @"totp";
 
 #endif

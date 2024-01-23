@@ -8,7 +8,7 @@
 
 import UIKit
 import FirebaseAuth
-import FirebaseDatabase
+//import FirebaseDatabase
 import CoreData
 import FirebaseFirestore
 

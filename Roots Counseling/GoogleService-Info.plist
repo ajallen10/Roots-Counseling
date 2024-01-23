@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>935932578147-t7c6komd6n2s26v9k55gp92mikhg82v2.apps.googleusercontent.com</string>
+	<string>935932578147-0qjvna5411onuelii28ofmdoooorpm4a.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.935932578147-t7c6komd6n2s26v9k55gp92mikhg82v2</string>
+	<string>com.googleusercontent.apps.935932578147-0qjvna5411onuelii28ofmdoooorpm4a</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDpRi9bBT4PDszMNgGKUEOr8Okbg65EL9I</string>
 	<key>GCM_SENDER_ID</key>
@@ -19,17 +19,17 @@
 	<key>STORAGE_BUCKET</key>
 	<string>rootscapstoneproj.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:935932578147:ios:2e79dd489a925cf32b2b56</string>
+	<string>1:935932578147:ios:785d4f85b8a0c79c2b2b56</string>
 	<key>DATABASE_URL</key>
 	<string>https://rootscapstoneproj.firebaseio.com</string>
 </dict>

@@ -15,6 +15,9 @@ class WiseMindViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var dataView: UIView!
     @IBOutlet weak var back: UIButton!
     @IBOutlet weak var doneButton: UIButton!
+    @IBOutlet weak var emo: UIButton!
+    @IBOutlet weak var wise: UIButton!
+    @IBOutlet weak var logic: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,16 +31,14 @@ class WiseMindViewController: UIViewController, UIScrollViewDelegate {
             back.isHidden = true
             doneButton.isHidden = true
         }
-        
-        scrollView.backgroundColor = UIColor.white
-        scrollView.delegate = self
-        scrollView.minimumZoomScale = 0.5
-        scrollView.maximumZoomScale = 4.0
-        scrollView.zoomScale = 1.0
     }
     
-    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        return dataView
+    
+    @IBAction func emoAct(_ sender: Any) {
+    }
+    @IBAction func wiseAct(_ sender: Any) {
+    }
+    @IBAction func logicAct(_ sender: Any) {
     }
     
     @IBAction func done(_ sender: Any) {

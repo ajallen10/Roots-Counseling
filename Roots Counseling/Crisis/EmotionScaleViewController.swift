@@ -9,7 +9,6 @@
 import UIKit
 import CoreData
 import FirebaseAuth
-import FirebaseDatabase
 
 class EmotionScaleViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var scale: UISegmentedControl!

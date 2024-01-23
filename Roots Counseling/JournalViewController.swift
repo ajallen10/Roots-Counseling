@@ -24,10 +24,12 @@ class JournalViewController: UIViewController {
         db.collection("users").document(uid).collection("Journal").document(date).getDocument() { (document, error) in
             if let document = document, document.exists {
                 let entry = document.get("entry") as! String
-                let emotion = document.get("emotion") as! Int
+                
+                if(document.get("emotion") as? String != nil){
+                    self.emotion.text = document.get("emotion") as? String
+                }
                 
                 self.entryBox.text = entry
-                self.emotion.text = String(emotion)
             }
         }
     }

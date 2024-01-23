@@ -9,6 +9,7 @@
 import UIKit
 
 class MindfulnessViewController: UIViewController, UIScrollViewDelegate {
+    @IBOutlet weak var pdfButton: UIButton!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var dataView: UIView!
     @IBOutlet weak var wise: UIButton!
@@ -117,6 +118,10 @@ class MindfulnessViewController: UIViewController, UIScrollViewDelegate {
 //        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
     }
 
+    @IBAction func pdf(_ sender: Any) {
+        performSegue(withIdentifier: "mindPDF", sender: self)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "effective"{
             let dest = segue.destination as! EffectiveViewController

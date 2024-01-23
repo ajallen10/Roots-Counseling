@@ -37,7 +37,7 @@ class DimeResultViewController: UIViewController {
                 suggest.text = "50¢: Say you'd rather not, but do it gracefully."
             }
             else if num == 6 {
-                suggest.text = "60¢: Say no firmly, but reconsider."
+                suggest.text = "60¢: Say no confidently, but reconsider."
             }
             else if num == 7 {
                 suggest.text = "70¢: Say no confidently; resist saying yes."

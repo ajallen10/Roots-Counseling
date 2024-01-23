@@ -39,8 +39,7 @@ class ReportViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var emotionAnxious: UISegmentedControl!
     @IBOutlet weak var emotionShame: UISegmentedControl!
     @IBOutlet weak var emotionMisery: UISegmentedControl!
-    
-    @IBOutlet weak var skillsRange: UISegmentedControl!
+
     @IBOutlet weak var skill1Response: UISegmentedControl!
     @IBOutlet weak var skill2Response: UISegmentedControl!
     @IBOutlet weak var skill3Response: UISegmentedControl!
@@ -74,6 +73,8 @@ class ReportViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var skill31Response: UISegmentedControl!
     @IBOutlet weak var start: UIView!
     @IBOutlet weak var cancel: UIView!
+    @IBOutlet weak var app: UITextField!
+    @IBOutlet weak var phone: UITextField!
     
     var day = 0
     var today = ""
@@ -114,11 +115,14 @@ class ReportViewController: UIViewController, UITextFieldDelegate {
         }
         
         otherTextField.delegate = self
+        app.delegate = self
+        phone.delegate = self
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         otherTextField.resignFirstResponder()
-        
+        app.resignFirstResponder()
+        phone.resignFirstResponder()
         return true
     }
     
@@ -287,7 +291,8 @@ class ReportViewController: UIViewController, UITextFieldDelegate {
             saveThis.setValue(sexAction.selectedSegmentIndex, forKey: "sex")
             saveThis.setValue(suicidalAction.selectedSegmentIndex, forKey: "suicidalAction")
             saveThis.setValue(suicidalUrge.selectedSegmentIndex, forKey: "suicidalUrge")
-            saveThis.setValue(skillsRange.selectedSegmentIndex, forKey: "skills")
+            saveThis.setValue(app.text, forKey: "skills")
+            saveThis.setValue(phone.text, forKey: "phone")
             saveThis.setValue(skill1Response.selectedSegmentIndex, forKey: "skill1")
             saveThis.setValue(skill2Response.selectedSegmentIndex, forKey: "skill2")
             saveThis.setValue(skill3Response.selectedSegmentIndex, forKey: "skill3")

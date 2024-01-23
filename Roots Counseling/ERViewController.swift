@@ -164,6 +164,10 @@ class ERViewController: UIViewController, UIScrollViewDelegate {
 //        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
     }
     
+    @IBAction func pdf(_ sender: Any) {
+        performSegue(withIdentifier: "emoPDF", sender: self)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "solve"{
             let dest = segue.destination as! SolveViewController

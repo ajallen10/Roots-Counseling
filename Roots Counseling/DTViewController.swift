@@ -9,7 +9,6 @@
 import UIKit
 
 class DTViewController: UIViewController, UIScrollViewDelegate {
-
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var dataView: UIView!
     @IBOutlet weak var accepts: UIButton!
@@ -70,6 +69,9 @@ class DTViewController: UIViewController, UIScrollViewDelegate {
         (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
     }
     
+    @IBAction func pdf(_ sender: Any) {
+        performSegue(withIdentifier: "distPDF", sender: self)
+    }
     @IBAction func accepts(_ sender: Any) {
 //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
 //        let mainTabBarController = storyboard.instantiateViewController(identifier: "accepts")

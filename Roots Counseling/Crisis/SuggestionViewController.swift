@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-import FirebaseDatabase
 import FirebaseAuth
 
 class SuggestionViewController: UIViewController {
@@ -159,7 +158,7 @@ class SuggestionViewController: UIViewController {
                 saveThis.setValue("please", forKey: "skill")
                 
                 if p && !e && a && !s && !ex {
-                    sugLabel.text = "Considing eating something healthy, sleeping and exercising. Understand that you aren't feeling well and are under the influence of mood-altering substances. Based on your current condition, it would be wise to properly take care of yourself."
+                    sugLabel.text = "Consider eating something healthy, sleeping and exercising. Understand that you aren't feeling well and are under the influence of mood-altering substances. Based on your current condition, it would be wise to properly take care of yourself."
                 }
                 else if p && !e && a && !s{
                     sugLabel.text = "Consider eating something healthy and sleeping. Understand that you aren't feeling well and are under the influence of mood-altering substances. Based on your current condition, it would be wise to properly take care of yourself."

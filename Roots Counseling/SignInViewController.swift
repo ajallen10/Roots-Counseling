@@ -8,14 +8,16 @@
 
 import UIKit
 import CoreData
-import FirebaseFirestore
 import FirebaseAuth
+import FirebaseCore
+import FirebaseFirestoreInternal
 
 class SignInViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var start: UIButton!
+    var db: Firestore!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,16 +46,16 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
             Auth.auth().sendPasswordReset(withEmail: email) { (error) in
                 if let error = error as NSError? {
                 self.errorLabel.textColor = UIColor.red
-                switch AuthErrorCode(rawValue: error.code) {
-                case .userNotFound:
+                switch error.code {
+                case AuthErrorCode.userNotFound.rawValue:
                     self.errorLabel.text = "User not found"
-                case .invalidEmail:
+                case AuthErrorCode.invalidEmail.rawValue:
                     self.errorLabel.text = "Invalid email"
-                case .invalidRecipientEmail:
+                case AuthErrorCode.invalidRecipientEmail.rawValue:
                     self.errorLabel.text = "Invalid recipient"
-                case .invalidSender:
+                case AuthErrorCode.invalidSender.rawValue:
                     self.errorLabel.text = "Invalid sender"
-                case .invalidMessagePayload:
+                case AuthErrorCode.invalidMessagePayload.rawValue:
                     self.errorLabel.text = "Invalid message template"
                 default:
                     self.errorLabel.text = "Error message: \(error.localizedDescription)"
@@ -89,43 +91,47 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in guard self != nil else { return }
             if let error = error as NSError? {
                 self?.errorLabel.textColor = UIColor.red
-                switch AuthErrorCode(rawValue: error.code) {
-                    case .operationNotAllowed:
+                switch error.code {
+                    case AuthErrorCode.operationNotAllowed.rawValue:
                         self?.errorLabel.text = "This action is not allowed"
-                    case .userDisabled:
+                    case AuthErrorCode.userDisabled.rawValue:
                         self?.errorLabel.text = "This user has been disabled"
-                    case .wrongPassword:
+                    case AuthErrorCode.wrongPassword.rawValue:
                         self?.errorLabel.text = "Wrong password"
-                    case .invalidEmail:
+                    case AuthErrorCode.invalidEmail.rawValue:
                         self?.errorLabel.text = "Invalid email"
                     default:
                         self?.errorLabel.text = "\(error.localizedDescription)"
                 }
             }
             else {
-                self?.errorLabel.textColor = UIColor.green
-                self?.errorLabel.text = "Success!"
-                let db = Firestore.firestore()
-                let uid: String = Auth.auth().currentUser!.uid
-                let doc = db.collection("users").document(uid)
-                
-                doc.getDocument { (document, error) in
-                    if let document = document, document.exists {
-                        let doc = document.get("admin")
-                        if doc as! Int == 1 {
-                            let storyboard = UIStoryboard(name: "Admin", bundle: nil)
-                            let mainTabBarController = storyboard.instantiateViewController(identifier: "AdminViewController")
-                            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+                Task{
+                    let uid: String = Auth.auth().currentUser!.uid
+                    let document = try await Firestore.firestore().collection("users").document(uid).getDocument()
+//                    debugPrint(doc)
+                    do {
+//                        let document = try await doc.getDocument()
+                        if document.exists {
+                            self?.errorLabel.text = "madeit"
+                            let docu = document.get("admin")
+                            if docu as! Int == 1 {
+                                let storyboard = UIStoryboard(name: "Admin", bundle: nil)
+                                let mainTabBarController = storyboard.instantiateViewController(identifier: "AdminViewController")
+                                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+                            }
+                            else {
+                                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                                let mainTabBarController = storyboard.instantiateViewController(identifier: "MainViewController")
+                                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+                            }
+                            
+                        } else {
+                            self?.errorLabel.text = "does not exist"
                         }
-                        else {
-                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                            let mainTabBarController = storyboard.instantiateViewController(identifier: "MainViewController")
-                            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
-                        }
-                        
-                    } else {
-                        print("Document does not exist")
                     }
+                    
+                    self?.errorLabel.textColor = UIColor.green
+                    self?.errorLabel.text = "Success!"
                 }
             }
         }

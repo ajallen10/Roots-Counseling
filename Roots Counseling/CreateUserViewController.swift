@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseFirestore
 import FirebaseAuth
-import FirebaseDatabase
+//import FirebaseDatabase
 
 class CreateUserViewController: UIViewController, UITextFieldDelegate {
 
@@ -62,14 +62,14 @@ class CreateUserViewController: UIViewController, UITextFieldDelegate {
                 if let error = error as NSError? {
                     self.message.textColor = UIColor.red
                     
-                    switch AuthErrorCode(rawValue: error.code) {
-                        case .operationNotAllowed:
+                    switch error.code {
+                        case AuthErrorCode.operationNotAllowed.rawValue:
                             self.message.text = "That operation is not allowed"
-                        case .emailAlreadyInUse:
+                        case AuthErrorCode.emailAlreadyInUse.rawValue:
                             self.message.text = "The email you provided is already in use"
-                        case .invalidEmail:
+                        case AuthErrorCode.invalidEmail.rawValue:
                             self.message.text = "Invalid email"
-                        case .weakPassword:
+                        case AuthErrorCode.weakPassword.rawValue:
                             self.message.text = "Weak password, password must be at least 6 characters long"
                         default:
                             self.message.text = "\(error.localizedDescription)"

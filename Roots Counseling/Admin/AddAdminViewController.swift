@@ -24,8 +24,21 @@ class AddAdminViewController: UIViewController {
         let doc = db.collection("users").document(user)
         doc.getDocument { (document, error) in
             if let document = document, document.exists {
-                self.week = document.get("week") as! Int
-                self.admin = document.get("admin") as! Bool
+                if(document.get("week") as? Int != nil){
+                    self.week = document.get("week") as! Int
+                }
+                else {
+                    let str = document.get("week") as! String
+                    self.week = Int(str)!
+                }
+                
+                if(document.get("admin") as? Bool != nil){
+                    self.admin = document.get("admin") as! Bool
+                }
+                else{
+                    let str = document.get("admin") as! String
+                    self.admin = Bool(str) ?? false
+                }
                 
                 if self.admin {
                     self.type.text = "Therapist"

@@ -8,9 +8,9 @@
 
 import UIKit
 import FirebaseAuth
-import FirebaseDatabase
 import CoreData
 import FirebaseFirestore
+import FirebaseCore
 
 class FirstViewController: UIViewController {
     @IBOutlet weak var welcome: UILabel!
@@ -21,6 +21,7 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.shared.unregisterForRemoteNotifications()
         (UIApplication.shared.delegate as! AppDelegate).restrictRotation = .portrait
         let name = Auth.auth().currentUser?.displayName
         welcome.text = "Welcome \(name ?? "")"
@@ -44,35 +45,45 @@ class FirstViewController: UIViewController {
         dt.layer.shadowOffset = CGSize(width: 0.0, height: 5.0)
         dt.layer.shadowOpacity = 0.3
         dt.layer.shadowRadius = 1.0
-        
-        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        let entity = NSEntityDescription.entity(forEntityName: "IsRoots", in: context)
-        let saveThis = NSManagedObject(entity: entity!, insertInto: context)
-        
-        let db = Firestore.firestore()
-        let uid: String = Auth.auth().currentUser!.uid
-        let doc = db.collection("users").document(uid)
-        
-        doc.getDocument { (document, error) in
-            if let document = document, document.exists {
-                let doc = document.get("roots")
-                if doc as! Int == 1 {
-                    saveThis.setValue("roots", forKey: "roots")
-                }
-                else {
-                    saveThis.setValue("notRoots", forKey: "roots")
+    
+        Task {
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            let entity = NSEntityDescription.entity(forEntityName: "IsRoots", in: context)
+            let saveThis = NSManagedObject(entity: entity!, insertInto: context)
+            let uid: String = Auth.auth().currentUser!.uid
+            let doc = Firestore.firestore().collection("users").document(uid)
+            
+            do {
+                let document = try await doc.getDocument()
+                if document.exists {
+                    var docu = ""
+            
+                    if(document.get("roots") as? String != nil){
+                        docu = document.get("admin") as! String
+                    }
+                    
+                    if docu == "true" {
+                        saveThis.setValue("roots", forKey: "roots")
+                    }
+                    else {
+                        saveThis.setValue("notRoots", forKey: "roots")
+                    }
+                    
+                } else {
+                    print("Document does not exist")
                 }
                 
-            } else {
-                print("Document does not exist")
+            } catch {
+                print("Error getting document: \(error)")
+            }
+            
+            do{
+                try context.save()
+            }catch{
+                print("Save failed: \(error)")
             }
         }
         
-        do{
-            try context.save()
-        }catch{
-            print("Save failed: \(error)")
-        }
     }
     
     @IBAction func mind(_ sender: Any) {

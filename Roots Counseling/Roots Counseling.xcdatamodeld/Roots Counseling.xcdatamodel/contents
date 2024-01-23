@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H15" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Crisis" representedClassName="Crisis" syncable="YES" codeGenerationType="class">
         <attribute name="accepts" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="breathe" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
@@ -33,6 +33,7 @@
         <attribute name="other" optional="YES" attributeType="String"/>
         <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -71,7 +72,7 @@
         <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
-        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
         <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
@@ -93,6 +94,7 @@
         <attribute name="other" optional="YES" attributeType="String"/>
         <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -131,7 +133,7 @@
         <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
-        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
         <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
@@ -153,6 +155,7 @@
         <attribute name="other" optional="YES" attributeType="String"/>
         <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -191,7 +194,7 @@
         <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
-        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
         <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
@@ -213,6 +216,7 @@
         <attribute name="other" optional="YES" attributeType="String"/>
         <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -251,7 +255,7 @@
         <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
-        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
         <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
@@ -273,6 +277,7 @@
         <attribute name="other" optional="YES" attributeType="String"/>
         <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -311,7 +316,7 @@
         <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
-        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
         <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
@@ -333,6 +338,7 @@
         <attribute name="other" optional="YES" attributeType="String"/>
         <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -371,7 +377,7 @@
         <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
-        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
         <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
@@ -393,6 +399,7 @@
         <attribute name="other" optional="YES" attributeType="String"/>
         <attribute name="otherAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="otherRank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="sad" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="selfHarmAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="selfHarmUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -431,7 +438,7 @@
         <attribute name="skill31" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill32" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="skill33" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
-        <attribute name="skills" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skills" optional="YES" attributeType="String"/>
         <attribute name="suicidalAction" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
         <attribute name="suicidalUrge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
@@ -453,13 +460,13 @@
     </entity>
     <elements>
         <element name="Crisis" positionX="36" positionY="135" width="128" height="238"/>
-        <element name="Day1" positionX="-9" positionY="36" width="128" height="58"/>
-        <element name="Day2" positionX="-9" positionY="45" width="128" height="58"/>
-        <element name="Day3" positionX="0" positionY="54" width="128" height="58"/>
-        <element name="Day4" positionX="18" positionY="72" width="128" height="58"/>
-        <element name="Day5" positionX="36" positionY="90" width="128" height="58"/>
-        <element name="Day6" positionX="54" positionY="108" width="128" height="58"/>
-        <element name="Day7" positionX="72" positionY="126" width="128" height="58"/>
+        <element name="Day1" positionX="-9" positionY="36" width="128" height="914"/>
+        <element name="Day2" positionX="-9" positionY="45" width="128" height="914"/>
+        <element name="Day3" positionX="0" positionY="54" width="128" height="914"/>
+        <element name="Day4" positionX="18" positionY="72" width="128" height="914"/>
+        <element name="Day5" positionX="36" positionY="90" width="128" height="914"/>
+        <element name="Day6" positionX="54" positionY="108" width="128" height="914"/>
+        <element name="Day7" positionX="72" positionY="126" width="128" height="914"/>
         <element name="Done" positionX="45" positionY="135" width="128" height="148"/>
         <element name="IsRoots" positionX="36" positionY="180" width="128" height="58"/>
         <element name="View" positionX="36" positionY="171" width="128" height="73"/>

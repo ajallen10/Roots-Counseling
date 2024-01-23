@@ -24,13 +24,13 @@ class EditViewController: UIViewController {
         navigationItem.title = date
     }
     
-    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-        if(text == "\n") {
-            entryBox.resignFirstResponder()
-            return false
-        }
-        return true
-    }
+//    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+//        if(text == "\n") {
+//            entryBox.resignFirstResponder()
+//            return false
+//        }
+//        return true
+//    }
     
     @IBAction func save(_ sender: Any) {
         let emo = rate.selectedSegmentIndex + 1

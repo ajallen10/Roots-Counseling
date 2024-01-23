@@ -4,10 +4,9 @@
 //
 //  Created by Abby Allen on 7/15/20.
 //  Copyright © 2020 Abby Allen. All rights reserved.
-//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
 
 import UIKit
-import FirebaseDatabase
+//import FirebaseDatabase
 import FirebaseAuth
 import CoreData
 import FirebaseFirestore
@@ -57,8 +56,17 @@ class ThirdViewController: UIViewController {
         
         doc.getDocument { (document, error) in
             if let document = document, document.exists {
-                let doc = document.get("week")
-                self.weekCounter = doc as! Int
+                var doc = ""
+                
+                if(document.get("week") as? String != nil){
+                    doc = document.get("week") as! String
+                    self.weekCounter = Int(doc)!
+                }
+                
+                if(document.get("week") as? Int != nil){
+                    self.weekCounter = document.get("week") as! Int
+                }
+                
                 self.week.text = "Week \(self.weekCounter)"
                 
             } else {
@@ -364,6 +372,9 @@ class ThirdViewController: UIViewController {
                 }
                 if (str.value(forKey: "skills") != nil) {
                     db.collection("users").document(uid).collection("Weeks").document(week).collection(day).document("skills").setData(["data": str.value(forKey: "skills")!])
+                }
+                if (str.value(forKey: "phone") != nil) {
+                    db.collection("users").document(uid).collection("Weeks").document(week).collection(day).document("phone").setData(["data": str.value(forKey: "phone")!])
                 }
                 if (str.value(forKey: "suicidalAction") != nil) {
                     db.collection("users").document(uid).collection("Weeks").document(week).collection(day).document("suicidalAction").setData(["data": str.value(forKey: "suicidalAction")!])

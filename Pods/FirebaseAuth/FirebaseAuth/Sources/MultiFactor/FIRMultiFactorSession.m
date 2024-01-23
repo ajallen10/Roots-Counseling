@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include <TargetConditionals.h>
+#import <TargetConditionals.h>
 #if TARGET_OS_IOS
 
-#import "FirebaseAuth/Sources/Public/FIRAuth.h"
-#import "FirebaseAuth/Sources/Public/FIRMultiFactorSession.h"
+#import "FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h"
+#import "FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorSession.h"
 
 #import "FirebaseAuth/Sources/MultiFactor/FIRMultiFactorSession+Internal.h"
 #import "FirebaseAuth/Sources/User/FIRUser_Internal.h"
@@ -42,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
   FIRUser *currentUser = [[FIRAuth auth] currentUser];
   NSString *IDToken = currentUser.rawAccessToken;
   FIRMultiFactorSession *session = [[FIRMultiFactorSession alloc] initWithIDToken:IDToken];
+  session.currentUser = currentUser;
   return session;
 }
 

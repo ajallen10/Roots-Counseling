@@ -117,6 +117,10 @@ class IEViewController: UIViewController, UIScrollViewDelegate{
 //        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
     }
     
+    @IBAction func pdf(_ sender: Any) {
+        performSegue(withIdentifier: "interPDF", sender: self)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "dia"{
             let dest = segue.destination as! DialecticViewController
@@ -142,5 +146,6 @@ class IEViewController: UIViewController, UIScrollViewDelegate{
             let dest = segue.destination as! DearManViewController
             dest.main = true
         }
+        
     }
 }

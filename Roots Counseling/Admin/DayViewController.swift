@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import FirebaseDatabase
+//import FirebaseDatabase
 import FirebaseFirestore
 
 class DayViewController: UIViewController {
@@ -16,6 +16,7 @@ class DayViewController: UIViewController {
     var dayNum = ""
     @IBOutlet weak var day: UILabel!
     @IBOutlet weak var date: UILabel!
+    @IBOutlet weak var phone: UILabel!
     
     @IBOutlet weak var SHU: UILabel!
     @IBOutlet weak var SHA: UIButton!
@@ -378,8 +379,13 @@ class DayViewController: UIViewController {
                     }
                     else if document.documentID == "skills"{
                         self.Skills.isHidden = false
-                        let num = document.get("data") as! Int
-                        self.Skills.text = String(num)
+                        let num = document.get("data") as! String
+                        self.Skills.text = num
+                    }
+                    else if document.documentID == "phone"{
+                        self.phone.isHidden = false
+                        let num = document.get("data") as! String
+                        self.phone.text = num
                     }
                     else if document.documentID == "suicidalAction"{
                         if (document.get("data") as! Int) == 0{

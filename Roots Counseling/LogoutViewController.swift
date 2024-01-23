@@ -11,15 +11,21 @@ import FirebaseAuth
 import CoreData
 
 class LogoutViewController: UIViewController {
+    @IBOutlet weak var orientation: UIButton!
     @IBOutlet weak var week: UIButton!
     @IBOutlet weak var crisis: UIButton!
     @IBOutlet weak var logout: UIButton!
-//    @IBOutlet weak var del: UIButton!
     @IBOutlet weak var journal: UIButton!
+    @IBOutlet weak var manage: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         (UIApplication.shared.delegate as! AppDelegate).restrictRotation = .portrait
+        
+        orientation.layer.cornerRadius = 3.0
+        orientation.layer.shadowOffset = CGSize(width: 0.0, height: 5.0)
+        orientation.layer.shadowOpacity = 0.3
+        orientation.layer.shadowRadius = 1.0
         
         week.layer.cornerRadius = 3.0
         week.layer.shadowOffset = CGSize(width: 0.0, height: 5.0)
@@ -36,10 +42,10 @@ class LogoutViewController: UIViewController {
         logout.layer.shadowOpacity = 0.3
         logout.layer.shadowRadius = 1.0
         
-//        del.layer.cornerRadius = 3.0
-//        del.layer.shadowOffset = CGSize(width: 0.0, height: 5.0)
-//        del.layer.shadowOpacity = 0.3
-//        del.layer.shadowRadius = 1.0
+        manage.layer.cornerRadius = 3.0
+        manage.layer.shadowOffset = CGSize(width: 0.0, height: 5.0)
+        manage.layer.shadowOpacity = 0.3
+        manage.layer.shadowRadius = 1.0
         
         journal.layer.cornerRadius = 3.0
         journal.layer.shadowOffset = CGSize(width: 0.0, height: 5.0)

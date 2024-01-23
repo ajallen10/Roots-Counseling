@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FirebaseDatabase
 import FirebaseFirestore
 
 class AdminWeekViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -48,7 +47,17 @@ class AdminWeekViewController: UIViewController, UITableViewDataSource, UITableV
         let doc = db.collection("users").document(user)
         doc.getDocument { (document, error) in
             if let document = document, document.exists {
-                let week = document.get("week") as! Int
+                var weekS = ""
+                var week = 0
+                
+                if(document.get("week") as? String != nil){
+                    weekS = document.get("week") as! String
+                    week = Int(weekS)!
+                }
+                
+                if(document.get("week") as? Int != nil){
+                    week = document.get("week") as! Int
+                }
                 
                 if week > 1 {
                     for i in 1...(week-1) {

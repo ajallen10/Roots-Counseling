@@ -9,45 +9,49 @@
 import UIKit
 import FirebaseFirestore
 import FirebaseAuth
+import FirebaseCore
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var db: Firestore!
 
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+    internal func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
         
-//         add these lines
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let adminStoryboard = UIStoryboard(name: "Admin", bundle: nil)
-        
-        // if user is logged in before
+
         if Auth.auth().currentUser != nil {
             // instantiate the main tab bar controller and set it as root view controller
             // using the storyboard identifier we set earlier
-            let uid: String = Auth.auth().currentUser!.uid
-            let db = Firestore.firestore()
-            let doc = db.collection("users").document(uid)
-            
-            doc.getDocument { (document, error) in
-                if let document = document, document.exists {
-                    let doc = document.get("admin")
-                    if doc as! Int == 1 {
-                        let mainTabBarController = adminStoryboard.instantiateViewController(identifier: "AdminViewController")
-                        self.window?.rootViewController = mainTabBarController
+            Task{
+                let uid: String = Auth.auth().currentUser!.uid
+                let doc = try await Firestore.firestore().collection("users").document("\(uid)").getDocument()
+//                print(uid)
+                do {
+//                    let document = try await doc.getDocument()
+                    if doc.exists {
+                        let docu = doc.get("admin")
+                        if docu as! Int == 1 {
+                            let storyboard = UIStoryboard(name: "Admin", bundle: nil)
+                            let mainTabBarController = storyboard.instantiateViewController(identifier: "AdminViewController")
+                            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+                        }
+                        else {
+                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                            let mainTabBarController = storyboard.instantiateViewController(identifier: "MainViewController")
+                            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+                        }
+                        
+                    } else {
+                        print("Document does not exist")
                     }
-                    else {
-                        let mainTabBarController = storyboard.instantiateViewController(identifier: "MainViewController")
-                        self.window?.rootViewController = mainTabBarController
-                    }
-                    
-                } else {
-                    print("Document does not exist")
                 }
             }
+            
         } else {
             // if user isn't logged in
             // instantiate the navigation controller and set it as root view controller
